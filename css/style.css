@@ -73,6 +73,15 @@ button {
     width: 100%;
 }
 
+.start-transparent {
+    padding: 6px 18px;
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid black;
+}
+
 .container {
     height: calc(700px - 75px);
     width: 1200px;
@@ -129,6 +138,9 @@ button {
 
 .div-select {
     margin-top: 35px;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
 }
 
 .month-radio , .year-radio {
@@ -290,5 +302,9 @@ li {
 
 .width-50 {
     width: 50%;
+    padding: 25px;
 }
-
+.width-50-custom {
+    width: calc(50% - 50px);
+   
+}
